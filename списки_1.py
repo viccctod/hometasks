@@ -7,9 +7,8 @@ th=[]
 f=[]
 print (lst)
 
-f=lst+a+th+f
-a=f
-print (a)
+f=lst[:]
+print (f)
 
 f=f+a
 for i in range (2):
